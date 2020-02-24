@@ -33,8 +33,8 @@ public class FileMatch {
         this.transactionRecord = transactionRecord;
         this.mainFile = pathToMainFile;
         this.transactionFile = pathToTransactionFile;
-        this.resultFile = Paths.get("src/filesText/result.xml");
-        this.logFile = Paths.get("src/filesText/log.xml");
+        this.resultFile = Paths.get("src/filesXml/result.xml");
+        this.logFile = Paths.get("src/filesXml/log.xml");
         this.accountsResult = new AccountsResult();
         this.logXML = new LogXML();
     }

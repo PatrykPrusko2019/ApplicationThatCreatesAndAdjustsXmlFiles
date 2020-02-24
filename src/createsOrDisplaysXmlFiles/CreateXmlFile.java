@@ -73,11 +73,11 @@ public class CreateXmlFile {
     private boolean checkTheFiles(File file, File file2) {
         System.out.println("******************\n");
         if( file.exists() || file2.exists() ) { // if files exist, notify the user
-            System.out.println("full file -> filesText, there are xml files : main file and transaction file\n\n" +
+            System.out.println("full file -> filesXml, there are xml files : main file and transaction file\n\n" +
                     "******************\n");
             return true;
         } else {
-            System.out.println("empty file -> filesText\n\n" + "******************\n");
+            System.out.println("empty file -> filesXml\n\n" + "******************\n");
             return false;
         }
     }

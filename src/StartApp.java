@@ -53,8 +53,8 @@ public class StartApp {
 
     private void start() {
 
-        Path pathToMainFile = Paths.get("src/filesText/mainFile.xml");
-        Path pathToTransactionFile = Paths.get("src/filesText/transactionFile.xml");
+        Path pathToMainFile = Paths.get("src/filesXml/mainFile.xml");
+        Path pathToTransactionFile = Paths.get("src/filesXml/transactionFile.xml");
 
         createXmlFile = new CreateXmlFile(pathToMainFile, pathToTransactionFile);
 
