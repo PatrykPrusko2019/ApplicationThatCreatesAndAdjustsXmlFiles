@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<accountsResult>
+    <accountsResult>
+        <accountNumber>1</accountNumber>
+        <balance>32.0</balance>
+        <firstName>Jakub</firstName>
+        <lastName>Sroka</lastName>
+        <numberOfCustomer>1</numberOfCustomer>
+        <transaction>account balance: 32.00, no transactions
+</transaction>
+    </accountsResult>
+    <accountsResult>
+        <accountNumber>100</accountNumber>
+        <balance>24.98</balance>
+        <firstName>Jan</firstName>
+        <lastName>Kowalski</lastName>
+        <numberOfCustomer>2</numberOfCustomer>
+        <transaction>account balance: 52.12 -&gt; shopping transaction
+</transaction>
+    </accountsResult>
+    <accountsResult>
+        <accountNumber>200</accountNumber>
+        <balance>-345.67</balance>
+        <firstName>Anna</firstName>
+        <lastName>Nowak</lastName>
+        <numberOfCustomer>3</numberOfCustomer>
+        <transaction>account balance: -322.11 -&gt; shopping transaction
+account balance: -358.67 -&gt; payment transaction
+</transaction>
+    </accountsResult>
+    <accountsResult>
+        <accountNumber>300</accountNumber>
+        <balance>0.0</balance>
+        <firstName>Zofia</firstName>
+        <lastName>Czekaj</lastName>
+        <numberOfCustomer>4</numberOfCustomer>
+        <transaction>account balance: 0.00 -&gt; zero transaction
+</transaction>
+    </accountsResult>
+    <accountsResult>
+        <accountNumber>400</accountNumber>
+        <balance>-42.16</balance>
+        <firstName>Ola</firstName>
+        <lastName>Rudnik</lastName>
+        <numberOfCustomer>5</numberOfCustomer>
+        <transaction>account balance: 24.40 -&gt; shopping transaction
+account balance: 17.84 -&gt; payment transaction
+account balance: 17.84 -&gt; zero transaction
+</transaction>
+    </accountsResult>
+    <accountsResult>
+        <accountNumber>500</accountNumber>
+        <balance>224.62</balance>
+        <firstName>Jakub</firstName>
+        <lastName>Sroka</lastName>
+        <numberOfCustomer>6</numberOfCustomer>
+        <transaction>account balance: 194.50 -&gt; payment transaction
+</transaction>
+    </accountsResult>
+    <accountsResult>
+        <accountNumber>700</accountNumber>
+        <balance>800.0</balance>
+        <firstName>Artur</firstName>
+        <lastName>Mistrz</lastName>
+        <numberOfCustomer>7</numberOfCustomer>
+        <transaction>account balance: 770.00 -&gt; payment transaction
+</transaction>
+    </accountsResult>
+    <accountsResult>
+        <accountNumber>800</accountNumber>
+        <balance>224.62</balance>
+        <firstName>Jakub</firstName>
+        <lastName>Sroka</lastName>
+        <numberOfCustomer>8</numberOfCustomer>
+        <transaction>account balance: 224.62, no transactions
+</transaction>
+    </accountsResult>
+</accountsResult>
