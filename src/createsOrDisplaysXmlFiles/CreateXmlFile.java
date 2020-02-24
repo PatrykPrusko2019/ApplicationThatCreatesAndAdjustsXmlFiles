@@ -12,7 +12,7 @@ import java.nio.file.Path;
 import java.util.*;
 
 /**
- * creates 2 text file : mainFile.txt and transactionFile.txt
+ * creates 2 text file : mainFile.xml and transactionFile.xml
  */
 public class CreateXmlFile {
 
@@ -73,7 +73,7 @@ public class CreateXmlFile {
     private boolean checkTheFiles(File file, File file2) {
         System.out.println("******************\n");
         if( file.exists() || file2.exists() ) { // if files exist, notify the user
-            System.out.println("full file -> filesText, there are text files : main file and transaction file\n\n" +
+            System.out.println("full file -> filesText, there are xml files : main file and transaction file\n\n" +
                     "******************\n");
             return true;
         } else {
@@ -87,7 +87,7 @@ public class CreateXmlFile {
      * user selection
      */
     private void choiceUser() {
-            System.out.println("******************\nFile Comparison Program\n******************\n" + "what you want to do, select the appropriate option:");
+            System.out.println("******************\nProgram for comparing xml files\n******************\n" + "what you want to do, select the appropriate option:");
             showOptions();
     }
 
@@ -105,7 +105,7 @@ public class CreateXmlFile {
 
                 switch (valueByUser) {
                     case 1: {
-                        System.out.println("*******************************\nWE CREATE 2 NEW FILES: main and transactional file\n" +
+                        System.out.println("*******************************\nCREATE 2 NEW FILES: main.xml and transactional.xml\n" +
                                 "*******************************\n");
                         createTwoFilesByTheUser();
                         System.out.println("currently created 2 files by the user:");
@@ -113,7 +113,7 @@ public class CreateXmlFile {
                         break;
                     }
                     case 2: {
-                        System.out.println("*******************************\nWE CREATE 2 NEW FILES AUTOMATICALLY: main file and transactional file\n" +
+                        System.out.println("*******************************\n\nCREATE 2 NEW FILES AUTOMATICALLY: main.xml and transactional.xml\n" +
                                 "*******************************\n");
                         createTwoFilesAutomatically();
                         System.out.println("currently created 2 files automatically:");
@@ -170,7 +170,7 @@ public class CreateXmlFile {
     }
 
     private void showMenu() {
-        System.out.println("1. Creates new 2 text files by user\n2. Creates new 2 text files automatically" +
+        System.out.println("1. Creates new 2 xml files by user\n2. Creates new 2 xml files automatically" +
                 "\n3. show current 2 files\n4. use the current two files and show the result\n5. exit ");
     }
 
