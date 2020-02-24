@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<logXML>
+    <transaction>
+        <accountNumber>-900</accountNumber>
+        <transactionAmount>-36.56</transactionAmount>
+    </transaction>
+    <transaction>
+        <accountNumber>90</accountNumber>
+        <transactionAmount>-36.56</transactionAmount>
+    </transaction>
+    <transaction>
+        <accountNumber>900</accountNumber>
+        <transactionAmount>82.17</transactionAmount>
+    </transaction>
+</logXML>

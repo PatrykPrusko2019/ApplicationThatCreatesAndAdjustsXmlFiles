@@ -9,9 +9,9 @@ import java.nio.file.Paths;
  *
  *
  *
- The program creates 2 text files xml:
- - main file
- - transactional file
+ The program creates 2 files xml:
+ - main.xml file
+ - transactional.xml file
 
 
  Creating a new file with accounts, the user must provide account numbers different
