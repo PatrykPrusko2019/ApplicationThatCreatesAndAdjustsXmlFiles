@@ -12,7 +12,7 @@ import java.nio.file.Path;
 import java.util.*;
 
 /**
- * creates 2 text file : mainFile.xml and transactionFile.xml
+ * creates 2 file : mainFile.xml and transactionFile.xml
  */
 public class CreateXmlFile {
 
